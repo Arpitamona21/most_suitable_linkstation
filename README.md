@@ -26,7 +26,7 @@ _“No link station within reach for point x,y”_
 
 Link stations are located at points (x, y) and have reach (r) ([x, y, r]) :
 ```
- [[0, 0, 10],
+[[0, 0, 10],
 [20, 20, 5],
 [10, 0, 12]] 
 ```
