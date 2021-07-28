@@ -41,7 +41,7 @@ Check MaxPower.py
 
 ## Installation:
 
-Clone the repository:
+Clone the repository: `https://github.com/Arpitamona21/most_suitable_linkstation.git`
 
 Install `virtualenv` and enable it.
 
