@@ -38,3 +38,11 @@ Print out function output from points (x, y):
 ## Solution:
 
 Check MaxPower.py 
+
+## Installation:
+
+Clone the repository:
+
+Install `virtualenv` and enable it.
+
+Install python dependencies on the virtual environment : `pip install -r requirements.txt`
