@@ -2,7 +2,7 @@ import sys
 import math
 
 
-# Calculates the most suitable link station for a device at point[x,y]
+# calculates the most suitable link station for a device located at point[x,y]
 
 
 def max_power_calculation():
@@ -13,7 +13,7 @@ def max_power_calculation():
             x = float(input("Enter x coordinate: "))
             y = float(input("Enter y coordinate: "))
             return x, y
-        except ValueError:  # handles exception for entering alphabet value
+        except ValueError:  # handles exception for incorrect value
             print("Please enter a number value")
             sys.exit(1)
 
@@ -46,7 +46,7 @@ def max_power_calculation():
 
     link_station_power = calculate_power(point)  # stores power values in a variable
 
-    # Calculates most suitable(with most power) link station for a user-input point
+    # calculates most suitable(with most power) link station for a user-input point
 
     def calculate_max_power(power_of_link_station):
         if (
@@ -55,7 +55,9 @@ def max_power_calculation():
                 == power_of_link_station[2]
                 == 0
         ):
-            print("No link station within reach")
+            print("No link station within reach for point " +
+                  str(point)
+                  )
 
         elif (power_of_link_station[0] > power_of_link_station[1]) and (
                 power_of_link_station[0] > power_of_link_station[2]
@@ -64,7 +66,7 @@ def max_power_calculation():
             print("Best Link station for point "
                   + str(point) +
                   " is "
-                  + str(link_station[0]) +
+                  + str(link_station[0][0:2]) +
                   " with power "
                   + str(power_of_link_station[0])
                   )
@@ -76,7 +78,7 @@ def max_power_calculation():
             print("Best Link station for point " +
                   str(point) +
                   " is "
-                  + str(link_station[1]) +
+                  + str(link_station[1][0:2]) +
                   " with power "
                   + str(power_of_link_station[1]))
         else:
@@ -84,16 +86,16 @@ def max_power_calculation():
             print("Best Link station for point "
                   + str(point) +
                   " is "
-                  + str(link_station[2]) +
+                  + str(link_station[2][0:2]) +
                   " with power "
                   + str([2]))
 
-    # calls calculate_max_power method
+    # calls calculate_max_power
 
     calculate_max_power(link_station_power)
 
 
-# Calls the function block
+# calls the function block
 
 
 max_power_calculation()
