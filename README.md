@@ -46,3 +46,10 @@ Clone the repository: `https://github.com/Arpitamona21/most_suitable_linkstation
 Install `virtualenv` and enable it.
 
 Install python dependencies on the virtual environment : `pip install -r requirements.txt`
+
+
+
+
+## Output:
+
+
