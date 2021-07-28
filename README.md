@@ -1,5 +1,5 @@
 
-Problem: 
+Problem statement: 
 
 This program creates a function that solves the most suitable (with most power) link station for a device at
 given point [x,y].
@@ -25,4 +25,5 @@ Print out function output from points (x, y):
 (0,0), (100, 100), (15,10) and (18, 18) .
 
 Solution:
+
 Check MaxPower.py 
