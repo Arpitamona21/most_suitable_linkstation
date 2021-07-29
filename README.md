@@ -47,9 +47,17 @@ Install `virtualenv` and enable it.
 
 Install python dependencies on the virtual environment : `pip install -r requirements.txt`
 
+Run python code : `python MaxPower.py`
+
 
 
 
 ## Output:
+
+_Function output for points:_ 
+`(0,0), (100, 100), (15,10) and (18, 18)`
+
+
+
 
 
