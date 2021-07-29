@@ -58,6 +58,6 @@ _Function output for points:_
 `(0,0), (100, 100), (15,10) and (18, 18)`
 
 
-
+![](Images/Screenshot1.jpg)
 
 
