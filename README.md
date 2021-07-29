@@ -58,6 +58,9 @@ _Function output for points:_
 `(0,0), (100, 100), (15,10) and (18, 18)`
 
 
-![](Images/Screenshot1.jpg)
+![Screenshot](Images/Screenshot1.JPG)
+![Screenshot](Images/Screenshot2.JPG)
+![Screenshot](Images/Screenshot3.JPG)
+![Screenshot](Images/Screenshot4.JPG)
 
 
