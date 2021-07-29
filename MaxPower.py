@@ -88,7 +88,7 @@ def max_power_calculation():
                   " is "
                   + str(link_station[2][0:2]) +
                   " with power "
-                  + str([2]))
+                  + str(power_of_link_station[2]))
 
     # calls calculate_max_power
 
